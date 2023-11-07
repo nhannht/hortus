@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<script src="hammer.min.js"></script>
+<div id="card-container">
+    {{ range .Pages }}
+    <div class="card">
+        <div class="glowing-mask"></div>
+        <div class="card-info">
+            <a class="underline" href="{{ .Permalink }}">
+                <h2 class="text-2xl">{{ .Title }}</h2>
+            </a>
+        </div>
+        <img src="border-2.jpg" alt="{{ .Title }}" draggable="false" class="image-background">
+    </div>
+    {{ end }}
+
+</div>
+
+{{ end }}

@@ -1,0 +1,9 @@
+<div class="fixed bottom-4 left-1/2 w-[360px] max-w-[92%] z-50 -translate-x-1/2 rounded-xl bg-gray-900 mb-safe mb-5  backdrop-blur-lg ">
+    <nav class="flex items-center justify-between px-5 py-3">
+        {{ range .Site.Menus.main }}
+        <button class="text-white hover:text-white/40 cursor-pointer transition-color duration-150 ease-smooth font-medium">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </button>
+        {{ end }}
+    </nav>
+</div>
