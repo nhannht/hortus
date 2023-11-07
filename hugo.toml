@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://the-hortus.vercel.app/'
 languageCode = 'en-us'
-title = "It 's so meow"
+title = "Just Me-ow"
 theme = "codex"
 
 [[menus.main]]
